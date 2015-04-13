@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwappingIntegers", "SwappingIntegers\SwappingIntegers.csproj", "{23C14927-350E-4C14-B845-C17E2A93BAE1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{29927490-CB6A-462D-92E4-8B05A994312C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{23C14927-350E-4C14-B845-C17E2A93BAE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23C14927-350E-4C14-B845-C17E2A93BAE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23C14927-350E-4C14-B845-C17E2A93BAE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29927490-CB6A-462D-92E4-8B05A994312C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29927490-CB6A-462D-92E4-8B05A994312C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29927490-CB6A-462D-92E4-8B05A994312C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29927490-CB6A-462D-92E4-8B05A994312C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
