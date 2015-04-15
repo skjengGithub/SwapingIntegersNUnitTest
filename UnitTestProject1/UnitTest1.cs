@@ -15,5 +15,20 @@ namespace UnitTestProject1
             Program.Swap(ref x, ref y);
             Assert.IsTrue(x == 5 && y == 3);
         }
+
+        [TestMethod]
+        public void TestScenario_2()
+        {
+            int x = 7;
+            int y = -3;
+            try
+            {
+                Program.Swap(ref x, ref y);
+            }
+            catch(Exception e)
+            {
+                throw e;
+            }        
+        }
     }
 }
