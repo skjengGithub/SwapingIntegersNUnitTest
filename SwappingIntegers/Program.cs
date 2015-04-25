@@ -13,6 +13,7 @@ namespace SwappingIntegers
         }
         public static void Swap(ref int x, ref int y)
         {
+            if (x <= 0 || y <= 0) throw new ArgumentOutOfRangeException();
             int temp = x;
             x = y;
             y = temp;
